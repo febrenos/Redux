@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: start;
-  padding: 40px;
-  grid-row-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4%;
+  grid-gap: 30px;
 
   @media (max-width: 768px) {
     display: flex;
